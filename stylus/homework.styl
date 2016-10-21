@@ -1,0 +1,59 @@
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+    font-family Arial
+a
+    text-decoration none
+    border  1px solid #e1e2e3
+    color rgb(0,0,204)
+    font-size 14px
+    cursor pointer
+    &::selection
+        background transparent
+    &:hover
+        border-color rgb(51,136,225)
+        background rgb(242,248,255)
+.boxAll
+    margin-top 100px
+    margin-left 50px
+    position relative
+    &::selection
+        background transparent
+    &>a
+        padding 6px 10px
+        position relative
+        top -10px
+    .overFlow
+        display inline-block
+        height 30px
+        width 398px
+        overflow hidden
+        .boxMain
+            display inline-block
+            position relative
+            width 2000px
+            a
+                display inline-block
+                width 30px
+                height 30px
+                line-height 28px
+                text-align center
+                &:not(:first-child)
+                    margin-left 10px
+                &:first-child
+                    margin-left 4px
+.none
+    display none
+.border
+    border 1px solid transparent
+.color
+    font-weight bold
+    color #333
+    cursor auto
+    &:hover
+        background white
+        border-color transparent
+
+
+
